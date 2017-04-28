@@ -631,7 +631,7 @@ nav
 
 .iphone-feature
 {
-    padding: 32px 0;
+    padding: 56px 0 0;
 }
 
 .iphone-feature__block,
@@ -1106,8 +1106,8 @@ nav
 
 .subscribe-container
 {
-    padding-top: 42px;
-    padding-bottom: 45px;
+    padding-top: 62px;
+    padding-bottom: 65px;
     text-align: center;
 }
 

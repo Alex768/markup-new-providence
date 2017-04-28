@@ -19,14 +19,12 @@ jQuery(function() {
         $('.menu-container').toggleClass('menu-container_opened');
     });
 
-    $('body').prepend('<div class="video-player" style="display: none;"><div class="video-player__block"><a class="video-player__close"></a><div class="video-player__wrapper"><iframe src="https://www.youtube.com/embed/sEDctELIm3I" frameborder="0" allowfullscreen></iframe></div></div></div>');
     $('.round-button_play').click(function(event) {
         event.preventDefault();
-        $('.video-player').show();
-    });
-
-    $('.video-player__close').click(function() {
-        $(this).parents('.video-player').hide();
+        $('body').prepend('<div class="video-player"><div class="video-player__block"><a class="video-player__close"></a><div class="video-player__wrapper"><iframe src="https://www.youtube.com/embed/sEDctELIm3I" frameborder="0" allowfullscreen></iframe></div></div></div>');
+        $('.video-player__close').click(function() {
+            $(this).parents('.video-player').remove();
+        });
     });
 	
     $('.customers-toggles__item').click(function() {
