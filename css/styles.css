@@ -213,6 +213,7 @@ a:hover
     color: #fff;
     -webkit-transition: background-color .3s;
     -moz-transition: background-color .3s;
+    -ms-transition: background-color .3s;
     -o-transition: background-color .3s;
     transition: background-color .3s;
 }
@@ -855,6 +856,7 @@ nav
     transform: scale(.69);
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     width: 80px;
@@ -896,6 +898,7 @@ nav
     overflow: hidden;
     -webkit-transition: left .4s ease-in-out;
     -moz-transition: left .4s ease-in-out;
+    -ms-transition: left .4s ease-in-out;
     -o-transition: left .4s ease-in-out;
     transition: left .4s ease-in-out;
     position: relative;
